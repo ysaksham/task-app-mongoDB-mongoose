@@ -1,92 +1,61 @@
-Dependencies
+# Task-app-User-Guide
 
-1)express
+# Dependencies
 
-2)mongodb
-
-3)mongoose
-
-4)validator
-
-5)dotenv
-
-6)jsonwebtoken
-
-7)bcrypt
-
-8)multer
-
-9)sharp
-
-10)sendgrid/email
-
-11)nodemon -dev dependency
-
-12)env-cmd -dev dependency
-
-13)jest -dev dependency
-
-14)supertest -dev dependency
+- express
+- mongodb
+- mongoose
+- validator
+- dotenv
+- jsonwebtoken
+- bcrypt
+- multer
+- sharp
+- sendgrid/email
+- nodemon -dev dependency
+- env-cmd -dev dependency
+- jest -dev dependency
+- supertest -dev dependency
 
 
 
-commands to install
+# Commands to install
 
-1)npm install express@latest
+- npm install express@latest
+- npm install mongoose@latest
+- npm install mongodb@latest
+- npm install validator@latest
+- npm install jsonwebtoken@latest
+- npm install bcrypt@latest
+- npm install @sendgrid/email@latest
+- npm install nodemon@latest --save -dev
+- npm install multer@latest
+- npm install env-cmd@latest --save -dev
+- npm install jest@latest --save -dev
+- npm install supertest@latest --save -dev
+- npm install sharp@latest
+- npm install jest@latest --save -dev
 
-2)npm install mongoose@latest
+Note : Before installing these commands, download and install Node.js. Node.js 0.10 or higher is require
 
-3)npm install mongodb@latest
+# Steps to create .env file
 
-4)npm install validator@latest
+- Create variable name called URI.
+- Give the mongodb database url as value for URI
+- For example : mongodb://hostname:port/databasename
+- Note : Mongo Compass needs to be installed.
 
-5)npm install jsonwebtoken@latest
+# Dependencies and Steps to run
 
-6)npm install bcrypt@latest
+- Postman needs to be installed for checking endpoints
 
-7)npm install @sendgrid/email@latest
+# Commands to run : 
 
-8)npm install nodemon@latest --save -dev
+- npm run start - to deploy the application
 
-9)npm install multer@latest
+- npm run dev - to run in dev environment
 
-10)npm install env-cmd@latest --save -dev
+- npm run test - to test the application
 
-11)npm install jest@latest --save -dev
-
-12)npm install supertest@latest --save -dev
-
-13)npm install sharp@latest
-
-14)npm install jest@latest --save -dev
-
-
-
-Note : Before installing these commands, download and install Node.js. Node.js 0.10 or higher is required.
-
-
-
-Steps to create .env file
-
-Create variable name called URI.
-
-Give the mongodb database url as value for URI
-
-For example : mongodb://hostname:port/databasename
-
-Note : Mongo Compass needs to be installed.
-
-Dependencies and Steps to run
-
-Postman needs to be installed for checking endpoints
-
-Command to run : 
-
-1) npm run start - to deploy the application
-
-2) npm run dev - to run in dev environment
-
-3) npm run test - to test the application
-
-Check the API requests using Postman and Verify the data in Mongo Compass
+-Check the API requests using Postman and Verify the data in Mongo Compass
 
