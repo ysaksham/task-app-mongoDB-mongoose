@@ -28,6 +28,8 @@ Dependencies
 
 14)supertest -dev dependency
 
+
+
 commands to install
 
 1)npm install express@latest
@@ -58,9 +60,14 @@ commands to install
 
 14)npm install jest@latest --save -dev
 
+
+
 Note : Before installing these commands, download and install Node.js. Node.js 0.10 or higher is required.
 
+
+
 Steps to create .env file
+
 Create variable name called URI.
 
 Give the mongodb database url as value for URI
@@ -70,6 +77,7 @@ For example : mongodb://hostname:port/databasename
 Note : Mongo Compass needs to be installed.
 
 Dependencies and Steps to run
+
 Postman needs to be installed for checking endpoints
 
 Command to run : 
